@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class RandomValues {
     public static void main(String[] args) {
-        //Mostly used for game development
+        //Mostly used for game development,testing ,random sampling and simulations
 
         Random random = new Random();
         // pseudo random number
