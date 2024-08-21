@@ -20,7 +20,7 @@ public class Wrapper {
  Character b = 'd';
  Integer c = 209;
  Double d = 3.14;
- String r = "Hers";
+ String r = "Her";
 
  if (c==2090){
      System.out.println("This is a true");
