@@ -1,5 +1,6 @@
 # This workflow will build a package using Maven and then publish it to GitHub packages when a release is created
 # For more information see: https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#apache-maven-with-a-settings-path
+
 name: Maven Package
 
 on:
@@ -32,5 +33,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ github.token }}
 
- name: Update dependency graph
+    - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@ae27f30e553a51615f4cac35056ba71fa083ae2e
