@@ -9,9 +9,10 @@ public class IfStatement {
         } else if (height >= 182.88) {
             System.out.println("You are her ideal height! ");
         } else if (height <= 152.4) {
-            System.out.println("You are a pygmy");
+            System.out.println("You are a pygmy!!");
         } else {
             System.out.println("You are not in her good books");
+
         }
     }
     }
