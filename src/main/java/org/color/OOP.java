@@ -12,9 +12,6 @@ public class OOP {
         System.out.println(myColors.type);
         System.out.println(myColors.price);
 
-
-
-
     }
     public static class colors{
 
@@ -32,6 +29,7 @@ public class OOP {
             System.out.println("Price: " + price);
         }
         double calculateTotalCost(int quantity){
+
             return price * quantity;
         }
 
