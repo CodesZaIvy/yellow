@@ -1,6 +1,8 @@
 package org.color;
 
 import java.util.Random;
+
+// Use LocalAndGlobalVariables java class
 //Local variable
 /*public class DiceRoller {
     DiceRoller(){
