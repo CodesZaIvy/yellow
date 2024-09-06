@@ -1,11 +1,12 @@
 package org.color;
 
 public class Table {
+    // Uses toString class
     String shape = "Circle";
     String material = "Wood";
     String color = "Black";
     String purpose = "coffee";
-    int height =  75;
+    int height =  65;
 
 
     public String toString(){
