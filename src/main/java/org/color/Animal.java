@@ -13,6 +13,11 @@ public class Animal {
         this.gender =gender;
         this.speed = speed;
     }
+
+    public Animal() {
+
+    }
+
     void eat(){
         System.out.println(this.name + " is eating");
     }
