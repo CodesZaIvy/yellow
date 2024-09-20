@@ -35,5 +35,11 @@ public class Computer {
     public void setYear(int year){
         this.year = year;
     }
+    public void copy(Computer x){
+        this.setMake(x.getMake());
+        this.setModel(x.getModel());
+        this.setYear(x.getYear());
+
+    }
 
 }
