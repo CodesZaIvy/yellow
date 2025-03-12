@@ -70,4 +70,9 @@ public class Arrays {
                 return colors[4];
         }
     }
+
+    public static Object stream(String[] days) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'stream'");
+    }
 }
